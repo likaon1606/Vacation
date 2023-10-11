@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vacation/static/css/main.d5f234aa.css",
+    "main.js": "/Vacation/static/js/main.5dee6456.js",
+    "index.html": "/Vacation/index.html",
+    "main.d5f234aa.css.map": "/Vacation/static/css/main.d5f234aa.css.map",
+    "main.5dee6456.js.map": "/Vacation/static/js/main.5dee6456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5f234aa.css",
+    "static/js/main.5dee6456.js"
+  ]
+}
