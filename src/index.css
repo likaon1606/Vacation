@@ -1,0 +1,240 @@
+nav {
+  background-color: black;
+}
+
+a {
+  color: white;
+  font-size: 1.25em;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+
+.nav-titulo {
+  font-size: 28px;
+}
+
+/* Con este truco de .active no hay que colocar la clase, solo se pone
+.active para dejar coloreado el link activo que se le da click */
+.active {
+  color: orangered;
+}
+
+.lista {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.destino {
+  border: 1px solid gray;
+  padding: 8px 12px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.logout {
+  font-size: 24px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.logout:hover {
+  transform: scale(1.2);
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.nombre {
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis; /*cuando no quepa aparezcan los ... */
+  overflow: hidden; /*Lo que no quepa se ocultará */
+}
+
+.situacion {
+  margin: 5px 0 10px;
+  font-size: 20px;
+  max-width: 90%;
+  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ruta h3 {
+  font-size: 36px;
+}
+
+.aviso p {
+  font-size: 24px;
+}
+
+.destino a,
+.aviso a {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 2px 12px 4px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.imagenGrande {
+  width: 700px;
+  margin: 8px auto;
+  position: relative;
+}
+
+.contenido {
+  position: relative;
+  text-align: center;
+}
+
+.contenedorComprar h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.servicios {
+  text-align: center;
+  font-size: 24px;
+}
+
+.precio {
+  position: absolute;
+  font-size: 2em;
+  color: white;
+  left: 30%;
+  top: 70%;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 7px 16px;
+  border-radius: 4px;
+  z-index: 4;
+}
+
+.contenido h1 {
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.circulo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(29, 161, 255);
+}
+
+.boton {
+  font-size: 0.9em;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.volver {
+  position: absolute;
+}
+
+.contratar {
+  background-color: green;
+}
+
+.anular {
+  background-color: gray;
+  background-color: red;
+}
+
+.contratar,
+.anular {
+  position: absolute;
+  top: 10px;
+  right: 150px;
+  font-size: 24px;
+}
+
+.botonVolver {
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.botonVolver button {
+  font-size: 0.9em;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 9px;
+}
+
+.anularRuta {
+  font-size: 22px;
+  margin: 20px 15px 3px;
+}
+
+.login {
+  padding-top: 20px;
+  width: 520px;
+  height: 180px;
+  border: 6px solid orangered;
+  border-radius: 12px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: orangered;
+}
+
+input {
+  color: orangered;
+  padding: 5px 9px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px dotted orangered;
+  border-radius: 5px 0 0 5px;
+  margin-left: 15px;
+  border-right: none;
+}
+
+.botonRegistro {
+  background-color: orangered;
+  color: white;
+  font-size: 1.1em;
+  padding: 4px 10px;
+  border: 1px solid orangered;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
